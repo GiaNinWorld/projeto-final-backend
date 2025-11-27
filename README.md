@@ -1,32 +1,8 @@
 # projeto-final-backend
 
-Aqui está um **arquivo Markdown completo** com **todos os endpoints**, **métodos HTTP**, **descrições** e **blocos JSON de teste**, pronto para colocar no seu README.md.
+# Autores
 
-Você pode copiar e colar diretamente:
-
----
-
-# 📚 API de Livros – Documentação
-
-Esta API permite gerenciar **Livros**, **Autores** e **Gêneros** por meio de operações CRUD.
-
----
-
-## 🔗 Base URL
-
-```
-http://localhost:8080
-```
-
----
-
-# 🎭 Endpoints da API
-
----
-
-# 🧑‍💼 Autores
-
-## ➕ Criar Autor
+##  Criar Autor
 
 **POST** `/autores`
 
@@ -36,7 +12,7 @@ http://localhost:8080
 }
 ```
 
-### ✔️ Exemplo de resposta
+### Exemplo de resposta
 
 ```json
 {
@@ -47,11 +23,11 @@ http://localhost:8080
 
 ---
 
-## 📄 Listar Autores
+##  Listar Autores
 
 **GET** `/autores`
 
-### ✔️ Resposta:
+###  Resposta:
 
 ```json
 [
@@ -64,7 +40,7 @@ http://localhost:8080
 
 ---
 
-## 🔍 Buscar Autor por ID
+##  Buscar Autor por ID
 
 **GET** `/autores/{id}`
 
@@ -77,7 +53,7 @@ http://localhost:8080
 
 ---
 
-## ✏️ Atualizar Autor
+##  Atualizar Autor
 
 **PUT** `/autores/{id}`
 
@@ -89,15 +65,15 @@ http://localhost:8080
 
 ---
 
-## 🗑️ Deletar Autor
+## Deletar Autor
 
 **DELETE** `/autores/{id}`
 
 ---
 
-# 🏷️ Gêneros
+#  Genero
 
-## ➕ Criar Gênero
+##  Criar Gênero
 
 **POST** `/generos-livro`
 
@@ -109,7 +85,7 @@ http://localhost:8080
 
 ---
 
-## 📄 Listar Gêneros
+##  Listar Gêneros
 
 **GET** `/generos-livro`
 
@@ -124,7 +100,7 @@ http://localhost:8080
 
 ---
 
-## 🔍 Buscar Gênero por ID
+## Buscar Gênero por ID
 
 **GET** `/generos-livro/{id}`
 
@@ -137,7 +113,7 @@ http://localhost:8080
 
 ---
 
-## ✏️ Atualizar Gênero
+##  Atualizar Gênero
 
 **PUT** `/generos-livro/{id}`
 
@@ -149,15 +125,15 @@ http://localhost:8080
 
 ---
 
-## 🗑️ Deletar Gênero
+## eletar Gênero
 
 **DELETE** `/generos-livro/{id}`
 
 ---
 
-# 📚 Livros
+# Livros
 
-## ➕ Criar Livro
+##  Criar Livro
 
 **POST** `/livros`
 
@@ -172,7 +148,7 @@ http://localhost:8080
 
 ---
 
-## 📄 Listar Livros
+##  Listar Livros
 
 **GET** `/livros`
 
@@ -190,7 +166,7 @@ http://localhost:8080
 
 ---
 
-## 🔍 Buscar Livro por ID
+##  Buscar Livro por ID
 
 **GET** `/livros/{id}`
 
@@ -206,7 +182,7 @@ http://localhost:8080
 
 ---
 
-## ✏️ Atualizar Livro
+##  Atualizar Livro
 
 **PUT** `/livros/{id}`
 
@@ -221,10 +197,8 @@ http://localhost:8080
 
 ---
 
-## 🗑️ Deletar Livro
+##  Deletar Livro
 
 **DELETE** `/livros/{id}`
 
 ---
-
-Se quiser, posso gerar isso automaticamente em **OpenAPI/Swagger YAML**, **Postman Collection JSON** ou **insomnia.json** — só pedir!
